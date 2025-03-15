@@ -9,7 +9,7 @@ import { NextContext } from "@/hooks/use-context";
 import { getSongsSuggestions } from "@/lib/fetch";
 import { useContext, useEffect, useState } from "react";
 
-export default function Recomandation({ id }) {
+export default function Recommendation({ id }) {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     const next = useContext(NextContext);
@@ -45,7 +45,7 @@ export default function Recomandation({ id }) {
     return (
         <section className="py-10 px-6 md:px-20 lg:px-32">
             <div>
-                <h1 className="text-base font-medium">Recomandation</h1>
+                <h1 className="text-base font-medium">Recommendation</h1>
                 <p className="text-xs text-muted-foreground">You might like this</p>
             </div>
             <div className="rounded-md mt-6">
@@ -75,7 +75,7 @@ export default function Recomandation({ id }) {
             </div>
             {!loading && !data && (
                 <div className="flex items-center justify-center text-center h-[100px]">
-                    <p className="text-sm text-muted-foreground">No recomandation for this song.</p>
+                    <p className="text-sm text-muted-foreground">No Recommendation for this song.</p>
                 </div>
             )}
         </section>
