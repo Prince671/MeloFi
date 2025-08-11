@@ -1,44 +1,4 @@
-# MusicHub
 
-MusicHub is a web music app built using Next.js 14, App Router, and an unofficial music API. The user interface is styled with Tailwind CSS.
-
-[![Follow me](https://img.shields.io/github/followers/r2hu1?style=social)](https://github.com/r2hu1)
-[![Star this Repo](https://img.shields.io/github/stars/r2hu1/musichub?style=social)](https://github.com/r2hu1/musichub)
-
-<br/>
-
-![Homepage](/public/feed.png)
-
-## Features
-
-- Browse and listen to a wide variety of music.
-- Light and Dark mode for user preference.
-- Search for your favorite artists, albums, and tracks.
-- Enjoy a seamless music listening experience.
-
-## Screenshots
-
-### Homepage
-
-![Homepage](/public/feed.png)
-
-### Search Page
-
-![Search Page](/public/search-feed.png)
-
-### Album Page
-
-![Album Page](/public/album.png)
-
-### Music Page
-
-Player
-
-![Music Page](/public/player-1.png)
-
-Mobile Player
-
-![Music Page](/public/player-2.png)
 
 ## Installation
 
